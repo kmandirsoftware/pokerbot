@@ -1,3 +1,7 @@
+from PIL import ImageGrab
+from PIL import Image
+import imagehash
+
 class HashHandler:
     def __init__(self, screen_position, mapped_dictionary={}):
         self.screen_position = screen_position
